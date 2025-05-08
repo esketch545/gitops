@@ -11,3 +11,14 @@ gitops/
 │       └── ...
 └── projects/
     └── default-project.yaml     # Optional Argo CD project config
+
+
+
+Purpose
+- Setup argocd
+- Break-out k8s manifests from app code
+- Separate resonsibility
+    - gitops = platform engineers
+    - app code = developers
+- Single place of management for platform engineers
+- Argocd will auto-sync the new version of app code
