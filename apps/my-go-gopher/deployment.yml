@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: my-go-gopher
-          image: esketch545/my-go-gopher:v2
+          image: esketch545/my-go-gopher:sha-c2db5f1612e85ccec3d9e23b536cb3402e726e61
           ports:
             - containerPort: 8080
